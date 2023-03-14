@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-with, initial-scale=1">
+        <meta name="description" content="My portfolio">
+        <meta name="keywords" content="html, css, web, web development, seo">
+        <title>Shape Factory</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="shorcut icon" href="./assets/image/favicon-32x32.png" type="image/S-icon">
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <script src="./assets/script/index.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <h2> Shape Factory</h2>
+                <div class="content-form">
+                    <select id="shapeSelect">
+                        <option value="circle">Circle</option>
+                        <option value="square">Square</option>
+                    </select>
+                    <select id="colorSelect">
+                        <option value="#09f">Blue</option>
+                        <option value="#9f0">Green</option>
+                        <option value="#f90">Orange</option>
+                        <option value="#f09">Pink</option>
+                        <option value="#90f">Purple</option>
+                    </select>
+                    <button id="createBtn">Create</button>
+                </div>
+                    <div class="grid-container" id="grid">
+                </div>
+                <div id="infoMsg" class="hidden"></div>
+                <div id="fullStorageMsg" class="hidden">You can't add more shapes.
+                    Storage is full</div>
+            </div>
+        </main>
+        <div class="container">
+            <footer> 
+                <p id="footer"> &copy2023 Deynni Almazan</p> 
+            </footer>
+        </div>
+    </body>
+</html>
