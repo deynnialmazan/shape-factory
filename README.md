@@ -2,6 +2,7 @@
 
 Hello.
 
+This is my Shape Factory! 
 You can select a shape, color, and create it! Also, you can get information about
 each shape.
 
