@@ -27,11 +27,11 @@ class Shape {
   
     getInfo() {
         //Validation to return color name in format like 'Blue, Green...'
-        if (this.#color === "#09f") return `${(this.#name).charAt(0).toUpperCase()+ (this.#name).slice(1)} Blue`;
-        if (this.#color === "#9f0") return `${(this.#name).charAt(0).toUpperCase()+ (this.#name).slice(1)} Green`;
-        if (this.#color === "#f90") return `${(this.#name).charAt(0).toUpperCase()+ (this.#name).slice(1)} Orange`;
-        if (this.#color === "#f09") return `${(this.#name).charAt(0).toUpperCase()+ (this.#name).slice(1)} Pink`;
-        if (this.#color === "#90f") return `${(this.#name).charAt(0).toUpperCase()+ (this.#name).slice(1)} Purple`;
+        if (this.#color === "#09f") return `Blue ${this.#name}`;
+        if (this.#color === "#9f0") return `Green ${this.#name} `;
+        if (this.#color === "#f90") return `Orange ${this.#name} `;
+        if (this.#color === "#f09") return `Pink ${this.#name}`;
+        if (this.#color === "#90f") return `Purple ${this.#name} `;
     }
   }
 
