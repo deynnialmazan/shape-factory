@@ -1,10 +1,8 @@
-### Alarm Clock
+### Shape Factory
 
 Hello.
 
-This is my Shape Factory.
-
-Select a shape, color, and create it! Also, you can get information about them.
+You can select a shape, color, and create it! Also, you can get information about them.
 
 Try it!
 
