@@ -1,4 +1,4 @@
-### Shape Factory
+## Shape Factory
 
 Hello.
 
@@ -7,7 +7,7 @@ each shape.
 
 Try it!
 
-## DEMO
+### DEMO
 
 See DEMO [here](https://deynnialmazan.github.io/shape-factory/)
 
