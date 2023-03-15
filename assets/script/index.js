@@ -54,7 +54,6 @@ class Shape {
     
     grid.appendChild(div);
 
-
     const  infoShape = shape.getInfo()
     const positionShape = shapes.lastIndexOf(shape) + 1 
     // getting the position of the shape in the array

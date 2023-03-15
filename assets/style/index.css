@@ -3,7 +3,6 @@
 :root {
   --app-yellow-hover: #ffff1c;
   --app-dark-bg: #1a1d28;
-  --app-gray-title: #838383;
   --app-medium-gray: #575757;
   --app-orange-text: #ff8e1c;
   --app-light-gray: #f9f9f9;
@@ -36,7 +35,7 @@ h2 {
   background-color: var(--app-medium-gray);
   color: var(--app-light-gray);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 5px;
   box-shadow: 1px 1px 1px rgb(0 0 0 / 0.3);
   cursor: pointer;
@@ -45,6 +44,7 @@ h2 {
 #createBtn {
   width: 100px;
   height: 37px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: center;
@@ -69,11 +69,12 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: var(--app-medium-gray);
-  height: 450px;
+  height: 435px;
   width: 550px;
   padding: 10px;
   border-radius: 5px;  
   box-shadow: 1px 1px 1px rgb(0 0 0 / 0.3);
+  transform: rotateX(3.142rad);
 }
 
 
